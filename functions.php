@@ -70,3 +70,17 @@ require get_template_directory() . '/inc/woocommerce.php';
  */
 require get_template_directory() . '/inc/editor.php';
 
+/**
+ * Load Products.
+ */
+require get_template_directory() . '/inc/products.php';
+
+/**
+ * Load Team Profiles.
+ */
+require get_template_directory() . '/inc/teamprofiles.php';
+
+/**
+ * Load Testimonials.
+ */
+require get_template_directory() . '/inc/testimonials.php';
