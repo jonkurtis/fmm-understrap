@@ -1,2 +1,8 @@
 #wrapper-static-hero, #wrapper-static-content, #primary { padding: 0; }
-
+.section-heading { margin: 20px auto; }
+a { color: #28a745; }
+a:hover { color: #f8f9fa; }
+.site-footer { color: #f8f9fa; }
+#products-section { margin-top: 20px; }
+.product-wrapper { background: #f8f9fa; padding: 20px; margin: 20px 0; }
+.product-wrapper div img { width: 150px; }
