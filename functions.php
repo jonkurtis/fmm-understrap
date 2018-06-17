@@ -84,3 +84,8 @@ require get_template_directory() . '/inc/teamprofiles.php';
  * Load Testimonials.
  */
 require get_template_directory() . '/inc/testimonials.php';
+
+/**
+ * Load OurServices.
+ */
+require get_template_directory() . '/inc/ourservices.php';

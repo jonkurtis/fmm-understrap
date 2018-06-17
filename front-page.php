@@ -59,6 +59,13 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<?php endif; ?>
 
 				<!-- Sections -->
+				<section id="services-section" >
+					<div class="container"  >
+						<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div> 
+						<div class="row" ><?php get_template_part( 'section-templates/ourservices-loop' ); ?></div>
+					</div>
+				</section>
+
 				<section id="products-section" >
 					<div class="container"  >
 						<div class="row"  ><h2 class="section-heading text-center">Eco Construction Products</h2></div> 
