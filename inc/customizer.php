@@ -122,3 +122,64 @@ if ( ! function_exists( 'understrap_customize_preview_js' ) ) {
 	}
 }
 add_action( 'customize_preview_init', 'understrap_customize_preview_js' );
+
+// Add  fmm Features Callout section to admin appearance customize screen
+function fmm_features_callout($wp_customize) {
+	$wp_customize->add_section('fmm-features-callout-section', array(
+		'title' => 'Features Callout'
+	));
+
+	$wp_customize->add_setting('fmm-features-callout-display', array(
+		'default' => 'No'
+	));
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'fmm-features-callout-display-control', array(
+			'label' => 'Display this section?',
+			'section' => 'fmm-features-callout-section',
+			'settings' => 'fmm-features-callout-display',
+			'type' => 'select',
+			'choices' => array('No' => 'No', 'Yes' => 'Yes')
+		)));
+
+	$wp_customize->add_setting('fmm-features-callout-headline', array(
+		'default' => 'Example Headline Text!'
+	));
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'fmm-features-callout-headline-control', array(
+			'label' => 'Headline',
+			'section' => 'fmm-features-callout-section',
+			'settings' => 'fmm-features-callout-headline'
+		)));
+
+	$wp_customize->add_setting('fmm-features-callout-text', array(
+		'default' => 'Example paragraph text.'
+	));
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'fmm-features-callout-text-control', array(
+			'label' => 'Text',
+			'section' => 'fmm-features-callout-section',
+			'settings' => 'fmm-features-callout-text',
+			'type' => 'textarea'
+		)));
+
+	$wp_customize->add_setting('fmm-features-callout-link');
+
+	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 'fmm-features-callout-link-control', array(
+			'label' => 'Link',
+			'section' => 'fmm-features-callout-section',
+			'settings' => 'fmm-features-callout-link',
+			'type' => 'dropdown-pages'
+		)));
+
+	$wp_customize->add_setting('fmm-features-callout-image');
+
+	$wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'fmm-features-callout-image-control', array(
+			'label' => 'Image',
+			'section' => 'fmm-features-callout-section',
+			'settings' => 'fmm-features-callout-image',
+			'width' => 750,
+			'height' => 500
+		)));
+}
+
+add_action('customize_register', 'fmm_features_callout');
