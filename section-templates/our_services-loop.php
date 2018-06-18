@@ -27,7 +27,7 @@ if ( $query->have_posts() ) {
         // Contents of the queried post results go here.
         ?> <div class="col-lg-<?php echo (12 / get_all_them_cpt_posts_products( 'our_services' ));?> col-md-6 col-sm-12 text-center">
                 <div class="services-wrapper">
-                    <div> <?php the_post_thumbnail(); ?> </div>
+                    <div> <i class="fa <?php echo get_field( 'fa_icon' ); ?> fa-5x" aria-hidden="true"></i> </div>
                     <h4> <?php the_title(); ?> </h4>
                     <p> <?php the_content(); ?> </p>
                 </div>
