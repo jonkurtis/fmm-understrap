@@ -2,7 +2,7 @@
 /**
  * Register `ourservices` post type
  */
-function ourservices_post_type() {
+function our_services_post_type() {
    
     // Labels
      $labels = array(
@@ -21,14 +21,14 @@ function ourservices_post_type() {
      );
      
      // Register post type
-     register_post_type('ourservices' , array(
+     register_post_type('our_services' , array(
          'labels' => $labels,
          'public' => true,
          'has_archive' => false,
-         'menu_icon' => get_stylesheet_directory_uri() . '/lib/OurServices/services-icon.png',
+         'menu_icon' => get_stylesheet_directory_uri() . '/lib/Our_Services/services-icon.png',
          'rewrite' => true,
          'supports' => array('title', 'editor', 'thumbnail')
      ) );
  }
- add_action( 'init', 'ourservices_post_type', 0 );
+ add_action( 'init', 'our_services_post_type', 0 );
  
