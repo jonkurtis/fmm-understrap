@@ -46,8 +46,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						 */
 						//get_template_part( 'loop-templates/content', get_post_format() );
 						?>
-						<section>
-						<div class="col-lg-12" > <?php the_content(); ?> </div>
+						<section class="main-content-section">
+							<div class="container">
+								<div class="col-lg-12" > <?php the_content(); ?> </div>
+							</div>
+						
 					</section>
 
 					<?php endwhile; ?>
