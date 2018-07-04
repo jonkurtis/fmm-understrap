@@ -5,11 +5,14 @@ a:hover { color: #f8f9fa; }
 .site-footer { color: #f8f9fa; }
 section { margin: 20px 0; padding-bottom: 20px;}
 /* Services Section */
-.services-wrapper i { padding: 20px; }
-.icon-1 { color: darkgreen; }
-.icon-2 { color: midnightblue; }
-.icon-3 { color: darkgoldenrod; }
-.icon-4 { color: darkred;}
+#our-services-section{
+    color:#eaeaea;
+    background-color: #269;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    background-image: linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),  linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px),  linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),  linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px);background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.service-icon img {margin-bottom: 15px;}
 /* Products Section */
 #products-section { background: #f0f0f0; }
 .product-wrapper { background: #f8f9fa; padding: 20px 15px; margin: 20px 0; border-radius: 4px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) }
