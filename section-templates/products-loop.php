@@ -30,6 +30,7 @@ if ( $query->have_posts() ) {
                     <div> <?php the_post_thumbnail(); ?> </div>
                     <h4> <?php the_title(); ?> </h4>
                     <p> <?php echo get_field('product_summary'); ?> </p>
+                    <a class="btn btn-outline-secondary btn-lg" href="<?php the_permalink(); ?>">Learn More</a>
                 </div>
             </div> <?php
     }
