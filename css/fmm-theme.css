@@ -4,6 +4,13 @@ a { color: #28a745; }
 a:hover { color: #f8f9fa; }
 .site-footer { color: #f8f9fa; }
 section { padding-top: 20px; padding-bottom: 40px;}
+/* Hero Section */
+.jumbotron {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 100%;
+}
 /* Services Section */
 .service-icon img {margin: 20px 0 15px;}
 /* Products Section */
