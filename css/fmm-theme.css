@@ -11,6 +11,7 @@ section { padding-top: 20px; padding-bottom: 40px;}
     background-size: cover;
     background-position: 50% 100%;
 }
+.hero-buttons .btn { margin: 10px; }
 /* Services Section */
 .service-icon img {margin: 20px 0 15px;}
 /* Products Section */
