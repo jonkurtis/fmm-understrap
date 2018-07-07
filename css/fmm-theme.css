@@ -1,21 +1,27 @@
 #wrapper-static-hero, #wrapper-static-content, #primary { padding: 0; }
 .section-heading { margin: 30px auto; }
-a { color: #28a745; }
+a { color: #6a9515; }
 a:hover { color: #f8f9fa; }
 .site-footer { color: #f8f9fa; }
 section { padding-top: 20px; padding-bottom: 40px;}
+/* Bootstrap btn colors */
+.btn-primary{background-color: #84B32B; border-color: #84B32B}
+.btn-primary:hover{background-color: #6a9515; border-color: #6a9515;}
+.btn-success{background-color: #3e7cb1; border-color: #3e7cb1;}
+.btn-success:hover{background-color: #336691; border-color: #336691;}
 /* Hero Section */
 .jumbotron {
     min-height: 600px;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 100%;
+    background-size: initial;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
 }
 .hero-buttons .btn { margin: 10px; }
 /* Services Section */
 .service-icon img { margin: 20px 0 15px; }
 .services-link { font-weight: bold; color: #999999}
-.services-link:hover { text-decoration: none; color: #28a745; }
+.services-link:hover { text-decoration: none; color: #6a9515; }
 /* Products Section */
 #products-section { background: #eaeaea; }
 .product-wrapper { background: #fdfdfd; padding: 20px 15px; margin: 20px 0; border-radius: 4px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) }
