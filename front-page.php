@@ -48,7 +48,10 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						?>
 						<section class="main-content-section">
 							<div class="container">
-								<div class="col-lg-12" > <?php the_content(); ?> </div>
+								<div class="row">
+									<div class="col-lg-2 main-thumb"> <?php the_post_thumbnail(); ?></div>
+									<div class="col-lg-10 m-auto" > <?php echo get_the_content(); ?> </div>
+								</div>
 							</div>
 						
 					</section>
