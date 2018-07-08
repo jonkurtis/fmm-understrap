@@ -6,7 +6,7 @@
 a { color: #6a9515; }
 a:hover { color: #f8f9fa; }
 .site-footer { color: #f8f9fa; }
-section { padding-top: 20px; padding-bottom: 40px;}
+section { padding-top: 50px; padding-bottom: 50px;}
 /* Bootstrap btn colors */
 .btn-primary{background-color: #84B32B; border-color: #84B32B}
 .btn-primary:hover{background-color: #6a9515; border-color: #6a9515;}
@@ -20,6 +20,7 @@ section { padding-top: 20px; padding-bottom: 40px;}
     background-position: 50% 0%;
     background-repeat: no-repeat;
 }
+.hero-heading{ text-transform: uppercase; font-size:3em;}
 .hero-buttons .btn { margin: 10px; }
 /* Main Content Section*/
 .main-thumb{ max-width: 160px; margin: auto; }
