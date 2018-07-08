@@ -67,27 +67,35 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<!-- Sections -->
 				<section id="our-services-section" >
 					<div class="container"  >
-						<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div> 
+						<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div>
+						<div class="row"  ><h4 class="section-sub-heading text-center">What We Do</h4></div> 
+						<div class="section-heading-separator"></div>
 						<div class="row" ><?php get_template_part( 'section-templates/our_services-loop' ); ?></div>
 					</div>
 				</section>
 
 				<section id="products-section" >
 					<div class="container"  >
-						<div class="row"  ><h2 class="section-heading text-center">Eco Construction Products</h2></div> 
+						<div class="row"  ><h2 class="section-heading text-center">Our Products</h2></div>
+						<div class="row"  ><h4 class="section-sub-heading text-center">What We Offer</h4></div> 
+						<div class="section-heading-separator"></div> 
 						<div class="row" ><?php get_template_part( 'section-templates/products-loop' ); ?></div>
 					</div>
 				</section>
 
 				<section id="team-section">
 					<div class="container" >
-						<div class="row" ><h2 class="section-heading text-center">Meet The Team</h2></div>
+						<div class="row" ><h2 class="section-heading text-center">Meet Our Team</h2></div>
+						<div class="row"  ><h4 class="section-sub-heading text-center">The People That Make It All Happen</h4></div> 
+						<div class="section-heading-separator"></div>
 						<div class="row "><?php get_template_part( 'section-templates/teamprofiles-loop' ); ?></div>
 					</div>
 				</section>
 				<section id="testimonials-section">
 					<div class="container"  >
-						<div class="row" ><h2 class="section-heading text-center">What Our Clients Say About Us</h2></div>
+						<div class="row" ><h2 class="section-heading text-center">Testimonials</h2></div>
+						<div class="row"  ><h4 class="section-sub-heading text-center">What Our Clients Say About Us</h4></div> 
+						<div class="section-heading-separator"></div>
 						<div class="row"><?php get_template_part( 'section-templates/testimonials-loop' ); ?></div>
 					</div>
 				</section>
