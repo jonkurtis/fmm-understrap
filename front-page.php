@@ -103,7 +103,10 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<?php get_template_part( 'section-templates/features-callout' ); ?>
 				</section>
 				<section id="service-map-section">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167638.13377337917!2d-81.65429098816242!3d28.79693917964429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cdb1f93ee6ebd2c!2sEco+Construction+Group+LLC!5e0!3m2!1sen!2sus!4v1528071661353" width="100%" height="566" frameborder="0" style="border:0;" allowfullscreen></iframe>
+				<div class="map-wrapper">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167638.13377337917!2d-81.65429098816242!3d28.79693917964429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cdb1f93ee6ebd2c!2sEco+Construction+Group+LLC!5e0!3m2!1sen!2sus!4v1528071661353" width="100%" height="566" frameborder="0" style="border:0;" allowfullscreen></iframe>
+				</div>
+				
 				</section>
 
 			</main><!-- #main -->
