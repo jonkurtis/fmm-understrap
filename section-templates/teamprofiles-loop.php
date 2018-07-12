@@ -2,7 +2,10 @@
  
 $args = array(
     // Arguments for your query.
-    'post_type' => 'team'
+    'post_type' => 'team',
+    'meta_key' => 'team_member_order',
+    'orderby' => 'meta_value_num',
+    'order' => 'ASC',
 );
  
 // Custom query.
