@@ -34,6 +34,7 @@ section { padding-top: 50px; padding-bottom: 50px;}
 @media (min-width: 1200px) { #products-section .container { max-width:960px; }}
 /* Team Section */
 #team-row { justify-content: space-around; }
+.team-photo { max-width: 120px; height: 178px; margin: 20px auto; }
 /* Testimonials Section */
 .testimonial-wrapper{ background-color: #eaeaea; padding:40px 20px; }
 .quote-separator { margin: 20px 0 20px; color: #84B32B; }
