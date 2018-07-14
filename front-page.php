@@ -86,7 +86,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<div class="row" ><h2 class="section-heading text-center">Meet Our Team</h2></div>
 						<div class="row"  ><h4 class="section-sub-heading text-center">The People That Make It All Happen</h4></div> 
 						<div class="section-heading-separator"></div>
-						<div class="row "><?php get_template_part( 'section-templates/teamprofiles-loop' ); ?></div>
+						<div class="row" id="team-row" ><?php get_template_part( 'section-templates/teamprofiles-loop' ); ?></div>
 					</div>
 				</section>
 				<section id="testimonials-section">
