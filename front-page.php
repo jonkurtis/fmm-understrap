@@ -46,6 +46,14 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						 */
 						//get_template_part( 'loop-templates/content', get_post_format() );
 						?>
+						<section id="main-callout" class="bg-success">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-9 text-light"><h5 class="text-bottom">Lake County Custom Home Builders Since 2008.</h5></div>
+									<div class="col-lg-3"><a class="btn btn-outline-light" href="#">Contact Us</a></div>
+								</div>
+							</div>
+						</section>
 						<section class="main-content-section">
 							<div class="container">
 								<div class="row">
