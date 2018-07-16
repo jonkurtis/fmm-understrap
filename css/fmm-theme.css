@@ -26,12 +26,13 @@ section { padding-top: 50px; padding-bottom: 50px;}
 .main-thumb{ max-width: 160px; margin: auto; }
 /* Services Section */
 .service-icon img { margin: 20px 0 15px; }
-.services-link { font-weight: bold; color: #999999}
+.services-link { font-weight: bold; color: #556677}
 .services-link:hover { text-decoration: none; color: #6a9515; }
 /* Products Section */
 #products-section { background: #eaeaea; }
 .product-wrapper { background: #fdfdfd; padding: 20px 15px; margin: 20px 0; border-radius: 4px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) }
 @media (min-width: 1200px) { #products-section .container { max-width:960px; }}
+.product-photo { margin-bottom: .5em; }
 /* Team Section */
 #team-row { justify-content: space-around; }
 .team-photo { max-width: 120px; height: 178px; margin: 20px auto; }

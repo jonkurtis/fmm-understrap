@@ -30,8 +30,9 @@ if ( $query->have_posts() ) {
                     <a href="<?php the_permalink(); ?>" class="services-link" >
                         <div class="service-icon"> <?php the_post_thumbnail(); ?> </div>
                         <?php the_title(); ?> 
-                        <p> <?php the_content(); ?> </p>
                     </a>
+                        <p> <?php echo get_field('service_description'); ?> </p>
+                        <a href="<?php the_permalink(); ?>">Read More</a>
                 </div>
             </div> <?php
     }

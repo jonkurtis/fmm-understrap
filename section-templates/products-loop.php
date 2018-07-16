@@ -27,7 +27,7 @@ if ( $query->have_posts() ) {
         // Contents of the queried post results go here.
         ?> <div class="col-lg-<?php echo (12 / get_all_them_cpt_posts_products( 'products' ));?> col-md-6 col-sm-12 text-center">
                 <div class="product-wrapper">
-                    <div> <?php the_post_thumbnail(); ?> </div>
+                    <div class="product-photo"> <?php the_post_thumbnail(); ?> </div>
                     <h4> <?php the_title(); ?> </h4>
                     <p> <?php echo get_field('product_summary'); ?> </p>
                     <a class="btn btn-outline-secondary btn-lg" href="<?php the_permalink(); ?>">Learn More</a>
