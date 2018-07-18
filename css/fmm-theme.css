@@ -16,7 +16,12 @@ section { padding-top: 50px; padding-bottom: 50px;}
 .btn-success:hover{background-color: #336691; border-color: #336691;}
 .btn-outline-light { border-width: 2px; }
 /* Text Alignment */
-@media (min-width: 767px) {.text-bottom { position: absolute; bottom: 0; left: 0; }}
+@media (min-width: 768px) {.text-bottom { position: absolute; bottom: 0; left: 0; }}
+/* Header */
+#wrapper-navbar { -webkit-box-shadow: 0 8px 6px -6px #999; -moz-box-shadow: 0 8px 6px -6px #999; box-shadow: 0 8px 6px -6px #999; }
+@media (min-width: 1200px) {.navbar { max-width: 90%; margin: 0 auto; }}
+.navbar-expand-md .navbar-nav {margin-left: auto;}
+.navbar {flex-wrap: nowrap;}
 /* Hero Section */
 .jumbotron {
     min-height: 600px;
