@@ -26,11 +26,13 @@ if ( $query->have_posts() ) {
  
         // Contents of the queried post results go here.
         ?> <div class="col-lg-<?php echo (12 / get_all_them_cpt_posts_products( 'products' ));?> col-md-6 col-sm-12 text-center">
-                <div class="product-wrapper">
-                    <div class="product-photo"> <?php the_post_thumbnail(); ?> </div>
-                    <h4> <?php the_title(); ?> </h4>
-                    <p> <?php echo get_field('product_summary'); ?> </p>
-                    <a class="btn btn-outline-secondary btn-lg" href="<?php the_permalink(); ?>">Learn More</a>
+                <div class="card shadow">
+                    <div class="card-img-top"> <?php the_post_thumbnail(); ?> </div>
+                    <div class="card-body">
+                        <div class="card-title"><h4> <?php the_title(); ?></h4></div>
+                        <p class="card-text"> <?php echo get_field('product_summary'); ?> </p>
+                        <a class="btn btn-outline-secondary btn-lg" href="<?php the_permalink(); ?>">Learn More</a>     
+                    </div>
                 </div>
             </div> <?php
     }
