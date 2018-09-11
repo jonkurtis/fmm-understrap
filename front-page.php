@@ -78,7 +78,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div>
 						<div class="row"  ><h4 class="section-sub-heading text-center">What We Do</h4></div> 
 						<div class="section-heading-separator"></div>
-						<div class="row" ><?php get_template_part( 'section-templates/our_services-loop' ); ?></div>
+						<div class="row" ><?php get_template_part( 'section-templates/our-services-loop' ); ?></div>
 					</div>
 				</section>
 				<section id="products-section" >

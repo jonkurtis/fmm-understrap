@@ -88,4 +88,4 @@ require get_template_directory() . '/inc/testimonials.php';
 /**
  * Load OurServices.
  */
-require get_template_directory() . '/inc/our_services.php';
+require get_template_directory() . '/inc/our-services.php';
