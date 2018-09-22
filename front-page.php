@@ -55,15 +55,15 @@ $container   = get_theme_mod( 'understrap_container_type' );
 							<div class="carousel-inner">
 								<div class="carousel-item active">
 								<div class="hero-overlay"></div>
-								<img class="d-block w-100" src="..." alt="First slide">
+								<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="First slide">
 								</div>
 								<div class="carousel-item">
 								<div class="hero-overlay"></div>
-								<img class="d-block w-100" src="..." alt="Second slide">
+								<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Second slide">
 								</div>
 								<div class="carousel-item">
 								<div class="hero-overlay"></div>
-								<img class="d-block w-100" src="..." alt="Third slide">
+								<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Third slide">
 								</div>
 							</div>
 							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
