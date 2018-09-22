@@ -46,7 +46,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						 */
 						//get_template_part( 'loop-templates/content', get_post_format() );
 						?>
-						<div id="hero-slider" class="carousel slide" data-ride="carousel">
+						<div id="hero-slider" class="carousel slide" data-ride="carousel" data-interval="5000">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -54,13 +54,16 @@ $container   = get_theme_mod( 'understrap_container_type' );
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-								<img class="d-block w-100" src="..." alt="First slide">
+								<div class="hero-overlay"></div>
+								<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="First slide">
 								</div>
 								<div class="carousel-item">
-								<img class="d-block w-100" src="..." alt="Second slide">
+								<div class="hero-overlay"></div>
+								<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Second slide">
 								</div>
 								<div class="carousel-item">
-								<img class="d-block w-100" src="..." alt="Third slide">
+								<div class="hero-overlay"></div>
+								<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Third slide">
 								</div>
 							</div>
 							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
