@@ -46,8 +46,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						 */
 						//get_template_part( 'loop-templates/content', get_post_format() );
 						?>
-						<div id="heroslider">
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<div id="hero-slider" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -73,8 +72,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 								<span class="sr-only">Next</span>
 							</a>
 						</div>
-						</div>
-
 						<section id="main-callout" class="bg-success">
 							<div class="container">
 								<div class="row">
