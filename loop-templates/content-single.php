@@ -12,12 +12,15 @@
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
+<?php
+/* Do not show post meta
 		<div class="entry-meta">
 
 			<?php understrap_posted_on(); ?>
 
-		</div><!-- .entry-meta -->
-
+		</div> <!--.entry-meta -->
+*/
+?>
 	</header><!-- .entry-header -->
 
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
