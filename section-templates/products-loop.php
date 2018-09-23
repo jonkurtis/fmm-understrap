@@ -2,7 +2,7 @@
  
 $args = array(
     // Arguments for your query.
-    'post_type' => 'products'
+    'post_type' => 'products',
 );
  
 // Custom query.
