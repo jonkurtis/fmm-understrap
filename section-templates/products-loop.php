@@ -31,7 +31,7 @@ if ( $query->have_posts() ) {
                     <div class="card-body">
                         <div class="card-title"><h4> <?php the_title(); ?></h4></div>
                         <p class="card-text"> <?php echo get_field('product_summary'); ?> </p>
-                        <a class="btn btn-outline-secondary btn-lg" href="<?php the_permalink(); ?>">Learn More</a>     
+                        <a class="btn btn-outline-primary btn-lg" href="<?php the_permalink(); ?>">Learn More</a>     
                     </div>
                 </div>
             </div> <?php
