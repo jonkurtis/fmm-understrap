@@ -28,7 +28,7 @@ if ( $query->have_posts() ) {
         ?> <div class="col-lg-<?php echo (12 / get_all_them_cpt_posts_services( 'services' ));?> col-md-6 col-sm-12 text-center">
                 <div class="services-wrapper">
                     <a href="<?php the_permalink(); ?>" class="services-link" >
-                        <div class="service-icon"> <?php the_post_thumbnail(); ?> </div>
+                        <div class="service-icon"> <img src="<?php $image = get_field('service_icon'); echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /> </div>
                         <?php the_title(); ?> 
                     </a>
                         <p> <?php echo get_field('service_description'); ?> </p>
