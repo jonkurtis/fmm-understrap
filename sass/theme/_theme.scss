@@ -7,3 +7,31 @@
     z-index: 2;
     background: rgba(0,0,0,0.4);
 }
+/* Background Text */
+@include media-breakpoint-up(sm) {
+    .big-text {
+        max-width: 1232px;
+        color: #21242A;
+        font-size: 223px;
+        font-weight: 800;
+        line-height: 209px;
+        position: absolute;
+        top: 0;
+        padding: 50px 0;
+        text-transform: uppercase;
+        overflow: hidden;
+
+    }
+    .big-text-left{
+        left: 0;
+    }
+    .big-text-right{
+        right: 0;
+        text-align: right;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .background-text{
+        display: none;
+    }
+}

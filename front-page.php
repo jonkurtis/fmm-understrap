@@ -121,7 +121,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<div class="container"  >
 					<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">What We Do</h4></div> 
-					<div class="section-heading-separator"></div>
+					<hr class="section-heading-separator">
 					<div class="row" ><?php get_template_part( 'section-templates/our-services-loop' ); ?></div>
 				</div>
 			</section>
@@ -129,15 +129,16 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<div class="container"  >
 					<div class="row"  ><h2 class="section-heading text-center">Our Products</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">What We Offer</h4></div> 
-					<div class="section-heading-separator"></div> 
+					<hr class="section-heading-separator"> 
 					<div class="row" ><?php get_template_part( 'section-templates/products-loop' ); ?></div>
 				</div>
 			</section>
 			<section id="team-section" class="col-md-12">
+				<div class="big-text big-text-right">Meet Our Team</div>
 				<div class="container" >
 					<div class="row" ><h2 class="section-heading text-center">Meet Our Team</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">The People That Make It All Happen</h4></div> 
-					<div class="section-heading-separator"></div>
+					<hr class="section-heading-separator">
 					<div class="row" id="team-row" ><?php get_template_part( 'section-templates/teamprofiles-loop' ); ?></div>
 				</div>
 			</section>
@@ -146,7 +147,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<div class="container"  >
 					<div class="row" ><h2 class="section-heading text-center">Testimonials</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">What Our Clients Say About Us</h4></div> 
-					<div class="section-heading-separator"></div>
+					<hr class="section-heading-separator">
 					<div class="row"><?php get_template_part( 'section-templates/testimonials-loop' ); ?></div>
 				</div>
 			</section>
@@ -164,7 +165,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<div class="container"  >
 					<div class="row" ><h2 class="section-heading text-center">Contact Us</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">Let's Get Your Project Started</h4></div> 
-					<div class="section-heading-separator"></div>
+					<hr class="section-heading-separator">
 				</div>
 			</section>
 			</div>
