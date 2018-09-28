@@ -11,12 +11,12 @@
 @include media-breakpoint-up(sm) {
     .big-text {
         max-width: 1232px;
-        color: #21242A;
+        //color: #21242A;
         font-size: 223px;
         font-weight: 800;
         line-height: 209px;
         position: absolute;
-        top: 0;
+        top: 25px;
         padding: 50px 0;
         text-transform: uppercase;
         overflow: hidden;
@@ -31,7 +31,7 @@
     }
 }
 @include media-breakpoint-down(sm) {
-    .background-text{
+    .big-text{
         display: none;
     }
 }
