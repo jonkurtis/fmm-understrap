@@ -89,10 +89,10 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						?>
 
 						<section class="main-content-section">
-						<div class="big-text big-text-left text-light">Build Design</div>
+						<div class="big-text big-text-left text-light">Design Build</div>
 							<div class="container">
 							<div class="row"  >
-								<h2 class="section-heading text-center">Build-Design</h2>
+								<h2 class="section-heading text-center">Design-Build</h2>
 							</div>
 								<div class="row"  >
 									<h4 class="section-sub-heading text-center">Who We Are</h4>
@@ -126,7 +126,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		<div id="main-sections" class="container-fluid">
 			<div class="row">
 			<section id="our-services-section" class="col-md-12 text-light">
-				<div class="big-text big-text-right text-dark">Our Services</div>
+				<div class="big-text big-text-right">Our Services</div>
 				<div class="container"  >
 					<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">What We Do</h4></div> 
@@ -143,7 +143,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				</div>
 			</section>
 			<section id="team-section" class="col-md-12">
-				<div class="big-text big-text-right text-dark">Meet Our Team</div>
+				<div class="big-text big-text-left">Meet Our Team</div>
 				<div class="container" >
 					<div class="row" ><h2 class="section-heading text-center">Meet Our Team</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">The People That Make It All Happen</h4></div> 
