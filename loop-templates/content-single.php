@@ -10,7 +10,7 @@
 
 	<header class="entry-header">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		
 
 <?php
 /* Do not show post meta
@@ -21,11 +21,26 @@
 		</div> <!--.entry-meta -->
 */
 ?>
+	
+
+	<?php if ( has_post_thumbnail() ) {
+	
+	// Get the post thumbnail URL
+	$feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+	} else {
+		
+		// Get the default featured image in theme options
+		$feat_image = get_field('default_featured_image', 'option');
+	} ?>
+
+	<section class="jumbotron row" style="background-image: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(<?php echo $feat_image; ?>);">
+	
+	<?php the_title( '<h1 class="entry-title text-light hero-heading m-auto">', '</h1>' ); ?>
+
+	</section>
 	</header><!-- .entry-header -->
-
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-
-	<div class="entry-content">
+	<?php /* echo get_the_post_thumbnail( $post->ID, 'large' );  */ ?>
+	<div class="entry-content wrapper container">
 
 		<?php the_content(); ?>
 

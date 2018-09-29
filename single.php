@@ -8,9 +8,9 @@
 get_header();
 ?>
 
-<div class="wrapper" id="single-wrapper">
+<div class="full-width-wrapper" id="single-wrapper">
 
-	<div class="container" id="content" tabindex="-1">
+	<div class="container-fluid" id="content" tabindex="-1">
 
 		<div class="row">
 
