@@ -32,7 +32,7 @@ if ( $query->have_posts() ) {
                             <h4> <?php the_title(); ?></h4>
                         </div>
                     </div>
-                    <div class="card-img-top"> <?php the_post_thumbnail(); ?> </div>
+                    <div class="card-img-top"> <img src="<?php $image = get_field('product_image'); echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /> </div>
                     
                     <div class="card-body ">
                         <p class="card-text"> <?php echo get_field('product_summary'); ?> </p>                          
