@@ -30,8 +30,8 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<p class="hero-subheading"> Central Florida's premiere custom builder of energy efficient and eco-friendly construction.</p>
 				<br>
 				<div class="hero-buttons">
-					<a class="btn btn-primary btn-lg" href="/gallery">View Gallery</a>
-					<a class="btn btn-success btn-lg" href="#" target="_blank" role="button">Get A Free Quote</a>
+					<a class="btn btn-primary btn-lg" href="/gallery/">View Gallery</a>
+					<a id="hero-contact-cta" class="btn btn-outline-light btn-lg" href="#contact-section" target="_blank" role="button">Start Your Project</a>
 				</div>
 			</div>
 		</div>
@@ -203,3 +203,13 @@ $container   = get_theme_mod( 'understrap_container_type' );
 </div><!-- Wrapper end -->
 
 <?php get_footer(); ?>
+<script>
+document.getElementById('contact-cta').addEventListener('click', function (e) {
+    e.preventDefault();
+    scrollTo (document.getElementById('contact-section'));
+});
+document.getElementById('hero-contact-cta').addEventListener('click', function (e) {
+    e.preventDefault();
+    scrollTo (document.getElementById('contact-section'));
+});
+</script>
