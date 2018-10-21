@@ -43,15 +43,15 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 			<div class="hero-overlay"></div>
-			<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="First slide">
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="First slide">
 			</div>
 			<div class="carousel-item">
 			<div class="hero-overlay"></div>
-			<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Second slide">
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
 			<div class="hero-overlay"></div>
-			<img class="d-block w-100" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Third slide">
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Third slide">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#hero-slider" role="button" data-slide="prev" style="z-index:6">
@@ -69,7 +69,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 text-light"><h5 class="text-bottom">Lake County Custom Home Builders Since 2008.</h5></div>
-				<div class="col-lg-3"><a class="btn btn-outline-light" href="#">Contact Us</a></div>
+				<div class="col-lg-3"><a id="contact-cta" class="btn btn-outline-light" href="#contact-section">Contact Us</a></div>
 			</div>
 		</div>
 	</section>
@@ -186,6 +186,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<div class="row" ><h2 class="section-heading text-center">Contact Us</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">Let's Get Your Project Started</h4></div> 
 					<hr class="section-heading-separator">
+					<div class="row"><?php echo do_shortcode("[ninja_form id=2]"); ?></div>
 				</div>
 			</section>
 			</div>
