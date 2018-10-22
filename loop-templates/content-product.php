@@ -32,19 +32,26 @@
 	} 
 	$image = get_field('product_image');
 	?>
-	<div class="position-relative">
-		<div class="position-absolute align-items-center d-flex w-100 h-100">
-			<img 
-			src="<?php echo $image['url']; ?>" 
-			alt="<?php echo $image['alt']; ?>" 
-			class="border border-white" 
-			/>
-			<?php 
-			the_title( '<h1 class="entry-title text-light hero-heading m-auto">', '</h1>' ); 
-			?>
+	<div class="container"><?php custom_breadcrumbs(); ?></div>
+	<div class="position-relative mt-5 container">
+		<div class="row mb-3 mb-md-1">
+			<div class="ml-auto col-md-7 col-sm-12">
+				<?php 
+				the_title( '<h1 class="entry-title text-dark">', '</h1>' ); 
+				?>
+			</div>
 		</div>
-		<div class="jumbotron row"
-		style="background-image: linear-gradient(rgba(106, 149, 21, 0.6), rgba(106, 149, 21, 0.6)), url(<?php echo $feat_image; ?>);">
+			<div class="row">
+			<div class="col-md-5 col-sm-12 text-center mb-4" >
+				<img 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				class="border border-white" 
+				/>
+			</div>
+			<div class="col-md-7 col-sm-12">
+			This is the product description.
+			</div>
 		</div>
 	</div>
 	</header><!-- .entry-header -->

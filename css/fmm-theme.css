@@ -98,3 +98,20 @@ section { padding-top: 60px; padding-bottom: 100px;}
 .single .site-line .thick-line{
     height: 332px;
 }
+#breadcrumbs{
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+}
+  
+#breadcrumbs li{
+    display:inline-block;
+    vertical-align:middle;
+    padding: 0;
+}
+  
+#breadcrumbs .separator{
+    font-size:18px;
+    font-weight:100;
+    color:#ccc;
+}

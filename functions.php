@@ -89,3 +89,8 @@ require get_template_directory() . '/inc/testimonials.php';
  * Load OurServices.
  */
 require get_template_directory() . '/inc/our-services.php';
+
+/**
+ * Load custom-breadcrumbs.
+ */
+require get_template_directory() . '/inc/custom-breadcrumbs.php';
