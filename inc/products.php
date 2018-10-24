@@ -17,7 +17,7 @@ function products_post_type() {
          'search_items' => __("Search Profiles"),
          'not_found' =>  __("No Profiles Found"),
          'not_found_in_trash' => __("No Profiles Found in Trash"),
-         'parent_item_colon' => ''
+         'parent_item_colon' => '',
      );
      
      // Register post type
@@ -32,7 +32,7 @@ function products_post_type() {
  }
  add_action( 'init', 'products_post_type', 0 );
 
-  /**
+/**
  * Register `Geotarget` taxonomy
  */
 function geotarget_taxonomy() {
@@ -50,10 +50,10 @@ function geotarget_taxonomy() {
 		'edit_item' => __("Edit $singular"),
 		'update_item' => __("Update $singular"),
 		'add_new_item' => __("Add New $singular"),
-		'new_item_name' => __("New $singular Name"),
+        'new_item_name' => __("New $singular Name"),
 	);
 
-	// Register and attach to 'productss' post type
+	// Register and attach to 'products' post type
 	register_taxonomy( strtolower($singular), 'products', array(
 		'public' => true,
 		'show_ui' => true,

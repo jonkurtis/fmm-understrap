@@ -3,17 +3,23 @@
 $args = array(
     // Arguments for your query.
     'post_type' => 'products',
+    'tax_query' => array(
+        array (
+            'taxonomy' => 'geotarget',
+            'field' => 'name',
+            'terms' => 'Main',
+        )
+    ),
 );
  
 // Custom query.
 $query = new WP_Query( $args );
 
-function get_all_them_cpt_posts_products($post_type){
+function get_all_them_cpt_posts_products($query){
     //$post_type = 'products';
-    $count_posts = wp_count_posts( $post_type );
+    $count_posts = $query->found_posts;
 
-    $published_posts = $count_posts->publish;
-    return $published_posts;
+    return $count_posts;
 }
 
 // Check that we have query results.
@@ -25,7 +31,7 @@ if ( $query->have_posts() ) {
         $query->the_post();
  
         // Contents of the queried post results go here.
-        ?> <div class="col-lg-<?php echo (12 / get_all_them_cpt_posts_products( 'products' ));?> col-md-6 col-sm-12 text-center mb-4">
+        ?> <div class="col-lg-<?php echo (12 / get_all_them_cpt_posts_products($query));?> col-md-6 col-sm-12 text-center mb-4">
                 <div class="card shadow d-flex h-100">
                     <div class="card-header">
                         <div class="card-title">
