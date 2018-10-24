@@ -31,3 +31,37 @@ function products_post_type() {
      ) );
  }
  add_action( 'init', 'products_post_type', 0 );
+
+  /**
+ * Register `Geotarget` taxonomy
+ */
+function geotarget_taxonomy() {
+	
+	// Labels
+	$singular = 'Geotarget';
+	$plural = 'Geotargets';
+	$labels = array(
+		'name' => _x( $plural, "geotarget general name"),
+		'singular_name' => _x( $singular, "geotarget singular name"),
+		'search_items' =>  __("Search $singular"),
+		'all_items' => __("All $singular"),
+		'parent_item' => __("Parent $singular"),
+		'parent_item_colon' => __("Parent $singular:"),
+		'edit_item' => __("Edit $singular"),
+		'update_item' => __("Update $singular"),
+		'add_new_item' => __("Add New $singular"),
+		'new_item_name' => __("New $singular Name"),
+	);
+
+	// Register and attach to 'productss' post type
+	register_taxonomy( strtolower($singular), 'products', array(
+		'public' => true,
+		'show_ui' => true,
+		'show_in_nav_menus' => true,
+		'hierarchical' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'labels' => $labels
+	) );
+}
+add_action( 'init', 'geotarget_taxonomy', 0 );
