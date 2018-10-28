@@ -186,7 +186,14 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<div class="row" ><h2 class="section-heading text-center">Contact Us</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">Let's Get Your Project Started</h4></div> 
 					<hr class="section-heading-separator">
-					<div class="row"><?php echo do_shortcode("[ninja_form id=2]"); ?></div>
+					<div id="contact-address" class="row">
+						<div id="main-contact-form" class="col-md-12 col-lg-6">
+							<?php echo do_shortcode("[ninja_form id=2]"); ?>
+						</div>
+						<div id="contact-card" class="col-md-12 col-lg-6 px-5">
+							<?php echo do_shortcode("[contact-card]"); ?>
+						</div>
+					</div>
 				</div>
 			</section>
 			</div>

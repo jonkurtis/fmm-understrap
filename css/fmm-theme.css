@@ -63,6 +63,8 @@ section { padding-top: 60px; padding-bottom: 100px;}
 /* Contact Section */
 #contact-section { background: #eaeaea; }
 #nf-form-2-cont{ width: 100%; }
+#contact-address #bp-map-0{ display: none; }
+#contact-us-page .bp-contact-page { display: none; }
 /* site-line */
 .single #site-line{
     top: 540px;
