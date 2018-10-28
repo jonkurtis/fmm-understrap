@@ -54,7 +54,7 @@ function geotarget_taxonomy() {
 	);
 
 	// Register and attach to 'products' post type
-	register_taxonomy( strtolower($singular), 'products', array(
+	register_taxonomy( strtolower($singular), array('products', 'services'), array(
 		'public' => true,
 		'show_ui' => true,
 		'show_in_nav_menus' => true,

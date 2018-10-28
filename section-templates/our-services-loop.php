@@ -3,6 +3,13 @@
 $args = array(
     // Arguments for your query.
     'post_type' => 'services',
+    'tax_query' => array(
+        array (
+            'taxonomy' => 'geotarget',
+            'field' => 'name',
+            'terms' => 'Main',
+        )
+    ),
 );
  
 // Custom query.
