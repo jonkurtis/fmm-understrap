@@ -190,10 +190,17 @@ $container   = get_theme_mod( 'understrap_container_type' );
 						<div id="main-contact-form" class="col-md-12 col-lg-6">
 							<?php echo do_shortcode("[ninja_form id=2]"); ?>
 						</div>
-						<div id="contact-card" class="col-md-12 col-lg-6 px-5">
+						<div id="contact-card" class="col-md-12 col-lg-6 px-lg-5 px-sm-1 card py-3 my-lg-5">
 							<?php echo do_shortcode("[contact-card]"); ?>
 						</div>
 					</div>
+				</div>
+			</section>
+			<section id="service-area-section" class="col-md-12 bg-dark text-light">
+				<div class="container"  >
+					<div class="row"  ><h3 class="section-heading text-center">Proudly Serving</h3></div>
+					<hr class="section-heading-separator">
+					<div class="row" ></div>
 				</div>
 			</section>
 			</div>
