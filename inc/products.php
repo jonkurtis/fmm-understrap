@@ -53,7 +53,7 @@ function geotarget_taxonomy() {
         'new_item_name' => __("New $singular Name"),
 	);
 
-	// Register and attach to 'products' post type
+	// Register and attach to 'products' and 'services' post type
 	register_taxonomy( strtolower($singular), array('products', 'services'), array(
 		'public' => true,
 		'show_ui' => true,

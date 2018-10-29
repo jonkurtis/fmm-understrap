@@ -200,7 +200,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<div class="container"  >
 					<div class="row"  ><h3 class="section-heading text-center">Proudly Serving</h3></div>
 					<hr class="section-heading-separator">
-					<div class="row" ></div>
+					<div class="row" ><?php get_template_part( 'section-templates/geotargets-loop' ); ?></div>
 				</div>
 			</section>
 			</div>
