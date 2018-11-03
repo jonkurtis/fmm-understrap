@@ -68,8 +68,8 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	<section id="main-callout" class="bg-success">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-9 text-light"><h5 class="text-bottom">Lake County Custom Home Builders Since 2008.</h5></div>
-				<div class="col-lg-3"><a id="contact-cta" class="btn btn-outline-light" href="#contact-section">Contact Us</a></div>
+				<div class="col-lg-9 col-md-12 text-light"><h5 class="text-bottom">Lake County Custom Home Builders Since 2008.</h5></div>
+				<div class="col-lg-3 col-md-12 text-center d-none d-lg-block"><a id="contact-cta" class="btn btn-outline-light" href="#contact-section">Contact Us</a></div>
 			</div>
 		</div>
 	</section>
@@ -110,7 +110,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 								</div> 
 							<hr class="section-heading-separator">
 								<div class="row">
-									<div class="col-lg-2 main-thumb"> <?php the_post_thumbnail(); ?></div>
+									<div class="col-lg-2 main-thumb py-3"> <?php the_post_thumbnail(); ?></div>
 									<div class="col-lg-10 m-auto" > <?php echo get_the_content(); ?> </div>
 								</div>
 							</div>
@@ -200,7 +200,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<div class="container"  >
 					<div class="row"  ><h3 class="section-heading text-center">Proudly Serving</h3></div>
 					<hr class="section-heading-separator">
-					<div class="row" ><?php get_template_part( 'section-templates/geotargets-loop' ); ?></div>
+					<div class="row justify-content-center" ><?php get_template_part( 'section-templates/geotargets-loop' ); ?></div>
 				</div>
 			</section>
 			</div>

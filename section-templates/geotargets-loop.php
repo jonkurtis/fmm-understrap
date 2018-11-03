@@ -12,6 +12,7 @@ foreach( $taxonomies as $taxonomy ) :
     // Gets every "category" (term) in this taxonomy to get the respective posts
     $terms = get_terms(array(
         'taxonomy'=> $taxonomy,
+        'hide_empty' => false,
         'orderby' => 'name',
         'order'   => 'DESC',
         ) 
