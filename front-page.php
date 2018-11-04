@@ -65,11 +65,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	</div>
 	
 
-	<section id="main-callout" class="bg-success">
+	<section id="main-callout" class="bg-success d-flex">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 col-md-12 text-light"><h5 class="text-bottom">Lake County Custom Home Builders Since 2008.</h5></div>
-				<div class="col-lg-3 col-md-12 text-center d-none d-lg-block"><a id="contact-cta" class="btn btn-outline-light" href="#contact-section">Contact Us</a></div>
+			<div class="row align-items-center">
+				<div class="col-md-9 col-sm-12 text-light"><h5 class="mb-0">Lake County Custom Home Builders Since 2008.</h5></div>
+				<div class="col-md-3 col-sm-12 d-none d-md-block"><a id="contact-cta" class="btn btn-outline-light" href="#contact-section">Contact Us</a></div>
 			</div>
 		</div>
 	</section>

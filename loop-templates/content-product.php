@@ -50,6 +50,7 @@
 				src="<?php echo $image['url']; ?>" 
 				alt="<?php echo $image['alt']; ?>"
 				class="float-left mr-3"
+				style="max-width: 500px;"
 				/>
 			</div>
 		<?php the_content(); ?>
