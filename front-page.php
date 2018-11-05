@@ -47,11 +47,19 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			</div>
 			<div class="carousel-item">
 			<div class="hero-overlay"></div>
-			<img class="d-block carousel-img" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Second slide">
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/11/hero-2.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
 			<div class="hero-overlay"></div>
-			<img class="d-block carousel-img" src="/wp-content/uploads/2018/09/hero-1.jpg" alt="Third slide">
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/11/hero-3.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+			<div class="hero-overlay"></div>
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/11/hero-4.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+			<div class="hero-overlay"></div>
+			<img class="d-block carousel-img" src="/wp-content/uploads/2018/11/hero-5.jpg" alt="Third slide">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#hero-slider" role="button" data-slide="prev" style="z-index:6">
