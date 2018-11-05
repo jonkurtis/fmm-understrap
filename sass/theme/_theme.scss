@@ -2,7 +2,7 @@
 /* Hero Slider */
 .hero-overlay {
     position: absolute;
-    width: 200%;
+    width: 300%;
     height: 100%;
     z-index: 2;
     background: rgba(0,0,0,0.4);
@@ -10,6 +10,7 @@
 @include media-breakpoint-down(sm){
     .carousel-img {
         max-width: 300%;
+        margin-left: -100%;
     }
     .display-4 {
         font-size: 2em;
