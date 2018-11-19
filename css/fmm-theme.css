@@ -20,7 +20,8 @@ section { padding-top: 60px; padding-bottom: 100px;}
 @media (min-width: 768px) {.text-bottom { position: absolute; bottom: 0; left: 0; }}
 /* Header */
 #wrapper-navbar { background-color: none;}
-.solid-nav { background-color: rgba(40,40,40,.9); }
+.solid-nav { background-color: rgba(0,0,0,.8); }
+.nav-link { text-transform: uppercase; color: white!important; font-size: 14px!important; }
 @media (min-width: 1200px) {.navbar { max-width: 90%; margin: 0 auto; }}
 .navbar-expand-md .navbar-nav {margin-left: auto;}
 .navbar-brand {max-width: 75%;}
