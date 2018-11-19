@@ -22,6 +22,7 @@ section { padding-top: 60px; padding-bottom: 100px;}
 #wrapper-navbar { background-color: none;}
 .solid-nav { background-color: rgba(0,0,0,.8); }
 .nav-link { text-transform: uppercase; color: white!important; font-size: 14px!important; }
+.nav-link:hover { color: rgba(255,255,255,.5)!important; }
 @media (min-width: 1200px) {.navbar { max-width: 90%; margin: 0 auto; }}
 .navbar-expand-md .navbar-nav {margin-left: auto;}
 .navbar-brand {max-width: 75%;}
@@ -38,6 +39,7 @@ section { padding-top: 60px; padding-bottom: 100px;}
         min-height: 325px;
     }
 }
+.hero-overlay {     background: rgba(0,0,0,0.3)!important;}
 .hero-heading{ text-transform: uppercase;}
 .hero-buttons .btn { margin: 10px; }
 /* Main Callout Section */
@@ -50,7 +52,6 @@ section { padding-top: 60px; padding-bottom: 100px;}
 .services-link { font-weight: bold; color: #556677}
 .services-link:hover { text-decoration: none; color: #6a9515; }
 /* Products Section */
-#products-section { background: #eaeaea; }
 @media (min-width: 1200px) { #products-section .container { max-width:960px; }}
 /* Team Section */
 #team-section { background-color: #171A1F; color: lightgray;}

@@ -76,7 +76,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	<section id="main-callout" class="bg-success d-flex">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-md-9 col-sm-12 text-light"><h5 class="mb-0">Lake County Custom Home Builders Since 2008.</h5></div>
+				<div class="col-md-9 col-sm-12 text-white"><h5 class="mb-0">Lake County Custom Home Builders Since 2008.</h5></div>
 				<div class="col-md-3 col-sm-12 d-none d-md-block"><a id="contact-cta" class="btn btn-outline-light" href="#contact-section">Contact Us</a></div>
 			</div>
 		</div>
@@ -147,7 +147,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			<section id="our-services-section" class="col-md-12 text-light">
 				<div aria-hidden="true" class="big-text big-text-right">Our Services</div>
 				<div class="container"  >
-					<div class="row"  ><h2 class="section-heading text-center">Our Services</h2></div>
+					<div class="row"  ><h2 class="section-heading text-center text-light">Our Services</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">What We Do</h4></div> 
 					<hr class="section-heading-separator">
 					<div class="row" ><?php get_template_part( 'section-templates/our-services-loop' ); ?></div>
@@ -164,7 +164,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			<section id="team-section" class="col-md-12">
 				<div aria-hidden="true" class="big-text big-text-left">Meet Our Team</div>
 				<div class="container" >
-					<div class="row" ><h2 class="section-heading text-center">Meet Our Team</h2></div>
+					<div class="row" ><h2 class="section-heading text-center text-light">Meet Our Team</h2></div>
 					<div class="row"  ><h4 class="section-sub-heading text-center">The People That Make It All Happen</h4></div> 
 					<hr class="section-heading-separator">
 					<div class="row" id="team-row" ><?php get_template_part( 'section-templates/teamprofiles-loop' ); ?></div>
@@ -206,7 +206,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			</section>
 			<section id="service-area-section" class="col-md-12 bg-dark text-light">
 				<div class="container"  >
-					<div class="row"  ><h3 class="section-heading text-center">Proudly Serving</h3></div>
+					<div class="row"  ><h3 class="section-heading text-center text-light">Proudly Serving</h3></div>
 					<hr class="section-heading-separator">
 					<div class="row justify-content-center" ><?php get_template_part( 'section-templates/geotargets-loop' ); ?></div>
 				</div>
